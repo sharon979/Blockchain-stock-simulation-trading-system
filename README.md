@@ -1,6 +1,7 @@
-# Getting Started with Create React App
+# Blockchain_Stock_Simulation_Trading_System
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<br>這是一個模擬台灣證券交易所得股票交易平台</br>
+<br>透過區塊鏈環境搭配智能合約技術，為用戶提供一個去中心化的交易平台，提升資料儲存安全性及降低交易手續費</br>
 
 ## Available Scripts
 
