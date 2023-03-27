@@ -1,0 +1,349 @@
+html{
+    height: 100%;
+  }
+.warp{
+    widows: auto;
+    font-family: "Verdana","新細明體",Geneva,Tahoma,sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.leftBuy{
+    margin-top: -25px;
+    margin-left: -20px;
+    width: 300px;
+    height: 850px;
+    background-color: black;
+    float: left;
+}
+.rightBuy{
+    margin-top: -25px;
+    margin-right: -75px;
+    width: 1145px;
+    height: 850px;
+    background-color: white;
+    float: left;
+}
+.top1{
+    width: 1145px;
+    height: 80px;
+    padding: 10px;
+    float: left;
+}
+.second{
+    width: 1145px;
+    height: 170px;
+    float: left;
+    padding: 10px;
+
+}
+.leftbox{
+    width: 500px;
+    height: 160px;
+    margin-left: 80px;
+    border-color:black;
+    border-width:3px;
+    border-style:solid;
+    padding:4px;
+    float: left;
+}
+.leftbox img{
+    width: 70px;
+    height: 70px;
+    margin-left: 3px;
+    margin-top: 4px;
+    background-color: white;
+    border: 1px solid rgba(255,255,255,255);
+    float:left;
+}    
+.leftBuy h4{
+    margin: 30px;
+    font-size: 20px;
+    color: red;
+    text-align:center;
+    margin-top: -10px;
+    margin-left: 110px;
+    float:left;
+}
+.leftBuy p{
+    margin: 30px;
+    font-size: 20px;
+    color: red;
+    text-align:center;
+    margin-top: -25px;
+    margin-left: 40px;
+    float:left;
+}
+.leftbox h3{
+    font-size: 25px;
+    color: block;
+    text-align:center;
+    margin-top: 10px;
+    margin-left: 10px;
+    float:left;
+}
+.leftbox h2{
+    font-size: 50px;
+    color: block;
+    text-align:center;
+    margin-top: 60px;
+    margin-left: -75px;
+    float:left;
+}
+.leftbox p{
+    font-size: 15px;
+    color: block;
+    text-align:center;
+    margin-top: -20px;
+    margin-left: 390px;
+    float:left;
+}
+.rightbox2{
+    width: 500px;
+    height: 160px;
+    border-color:black;
+    border-width:3px;
+    border-style:solid;
+    padding:4px;
+    float: left;
+}
+.rightbox2 img{
+    width: 70px;
+    height: 70px;
+    margin-left: 3px;
+    margin-top: 4px;
+    background-color: white;
+    border: 1px solid rgba(255,255,255,255);
+    float:left;
+}   
+.rightbox2 h3{
+    font-size: 25px;
+    color: black;
+    text-align:center;
+    margin-top: 10px;
+    margin-left: 10px;
+    float:left;
+}
+.rightbox2 h2{
+    font-size: 50px;
+    color: black;
+    text-align:center;
+    margin-top: 60px;
+    margin-left: -75px;
+    float:left;
+}
+.rightbox2 p{
+    font-size: 15px;
+    color: block;
+    text-align:center;
+    margin-top: -30px;
+    margin-left: 370px;
+    float:left;
+}
+.search1{
+    width: 1000px;
+    height: 100px;
+    margin-left: 85px;
+  
+    float: left;
+    padding: 10px;
+}
+.search-bar1{
+    width: 948px;
+    height: 60px;
+    margin-left: -4px;
+    margin-top: 10px;
+    font-size: 20px;
+    border-color:black;
+    border-width:3px;
+    border-style:solid;
+    padding:4px;
+}
+
+.search-btn1{
+    width: 70px;
+    height: 74px;
+    background-color: white;
+    border: 5px solid block;
+    border-color:black;
+    border-width:3px;
+    cursor: pointer; 
+    position: absolute;
+    margin-left: -2.5px;
+    margin-top: 10px;
+    float: left;
+}
+.search-btn1 img{
+    width: 60px;
+    height: 60px;
+    margin-left: -5px;
+    float: left;
+}  
+.info{
+    padding: 10px;
+    width: 1145px;
+    height: 650px;
+    float: left;
+}
+
+.leftBuy h1{
+    margin: 30px;
+    font-size: 30px;
+    color: white;
+    text-align:center;
+    padding-top: 20px;
+    float:left;
+}
+.leftBuy #nowpage{
+    font-size: 20px;
+    text-align:center;
+    line-height:40px;
+    width: 200px;
+    height: 40px;
+    margin-left: 40px;
+    float:left;
+    background: #000;
+    color: white;
+    text-decoration:none;
+    border-radius:5px;
+
+}
+.leftBuy #BuyStock{
+    font-size: 20px;
+    text-align:center;
+    line-height:40px;
+    width: 200px;
+    height: 40px;
+    margin-left: 40px;
+    margin-top: 20px;
+    float:left;
+    color: #ffc107;
+    background: #000;
+    text-decoration:none;
+    border-radius:5px;
+}
+.leftBuy #SellStock{
+    font-size: 20px;
+    text-align:center;
+    line-height:40px;
+    width: 200px;
+    height: 40px;
+    margin-left: 40px;
+    margin-top: 20px;
+    float:left;
+    color: white;
+    background: #000;
+    text-decoration:none;
+    border-radius:5px;
+}
+.leftBuy #TransactionStatus{
+    font-size: 20px;
+    text-align:center;
+    line-height:40px;
+    width: 200px;
+    height: 40px;
+    margin-left: 40px;
+    margin-top: 20px;
+    float:left;
+    color: white;
+    background: #000;
+    text-decoration:none;
+    border-radius:5px;
+}
+.leftBuy #Discussion{
+    font-size: 20px;
+    text-align:center;
+    line-height:40px;
+    background: #000;
+    color: white;
+    width: 200px;
+    height: 40px;
+    margin-left: 40px;
+    margin-top: 20px;
+    float:left;
+    text-decoration:none;
+    border-radius:5px;
+}
+.rightBuy #logout{
+    font-size: 20px;
+    text-align:center;
+    line-height:40px;
+    width: 100px;
+    height: 40px;
+    margin-left: 990px;
+    margin-top: 40px;
+    float:left;
+    color: white;
+    background: red;
+    text-decoration:none;
+    border-radius:5px;
+    float:left;
+}
+.popup{
+    position: fixed;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .popup-inner{
+    position: relative;
+    padding: 32px;
+    width: 50px;
+    height: 700px;
+    max-width: 640px;
+    background-color: white;
+  }
+  .popup-inner h2{
+      color: blue;
+   
+  }
+
+  .popup-inner .Transaction {
+    margin-left: -140px;
+
+  }
+  .popup-inner .cancel{
+    margin-left: 0px;
+    margin-top:50px;
+    float: left;
+
+  }
+  .popup-inner .submit {
+    margin-top:50px;
+    float: left;
+  }
+
+.like-btn{
+    background-color: white;
+    border:none;
+}
+
+.like-btn img{
+    width: 40px;
+    height: 40px;
+}
+
+.postbuy{
+  float: left;
+  border: 1px solid blue;
+  margin-left: 180px;
+}
+
+.userlike{
+    width: 1145px;
+    height: 70px;
+    margin-top: 80px;
+    margin-left: 50px;
+}
+
+
+
+
+
+

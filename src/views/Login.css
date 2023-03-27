@@ -1,0 +1,103 @@
+html{
+  height: 100%;
+}
+
+body{
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.warp{
+  widows: auto;
+  font-family: "Verdana","新細明體",Geneva,Tahoma,sans-serif;
+  margin-left: auto;
+  margin-right: auto;
+}
+.header h1{
+  margin: 10px;
+  font-size: 55px;
+  color: black;
+  margin-top:40px;
+  text-align:center;
+}
+.login{
+  width: 570px;
+  height: 600px;
+  font-size: 25px;
+  background:black; opacity: 0.8; 
+  filter:Alpha(Opacity=50, Style=0);
+  background-color: black;
+  margin-top:70px;
+  margin-left: 350px;  
+  margin:0px auto;
+  border-radius:10px;
+
+}
+.login h1{
+  margin: 20px;
+  font-size: 35px;
+  color: white;
+  text-align:center;
+}
+.login h3{
+  margin-top:40px;
+  margin-left:75px;
+  font-size: 25px;
+  color: white;
+  float:left;
+}
+.login h4{
+  margin-top:5px;
+  margin-left: 75px;
+  font-size: 25px;
+  color: white;
+  float:left;
+}
+.picture{
+  width: 150px;
+  height: 150px;
+  margin:0px auto;
+  opacity: 1.0;
+}
+.login img{
+  width: 150px;
+  height: 150px;
+  margin:0px auto;
+  background-color: white;
+  border-radius: 50%;
+	border: 1px solid rgba(255,255,255,255);
+}
+.login input{
+  width: 200px;
+  height: 40px;
+  margin: 10px;
+  margin-top: -70px;
+  margin-left: 250px;
+  border-radius:10px;
+  float:left;
+}
+.login  #submit{
+  width: 100px;
+  height: 40px;
+  margin: 10px;
+  margin-top: 20px;
+  margin-left: 235px;
+  border-radius:10px;
+  float:left;
+}
+.login #linkregister{
+  font-size: 20px;
+  text-decoration:none;
+  color: white;
+  margin: 10px;
+  margin-top: -40px;
+  margin-left: 370px;
+  float:left;
+}
+
+
+
+
+

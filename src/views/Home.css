@@ -1,0 +1,210 @@
+html{
+    height: 100%;
+  }
+.warp{
+    widows: auto;
+    font-family: "Verdana","新細明體",Geneva,Tahoma,sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.left{
+    margin-top: -25px;
+    margin-left: -20px;
+    width: 300px;
+    height: 850px;
+    background-color: black;
+    float: left;
+}
+.right{
+    margin-top: -25px;
+    margin-right: -75px;
+    width: 1145px;
+    height: 850px;
+    background-color: white;
+    float: left;
+}
+.left h1{
+    margin: 30px;
+    font-size: 30px;
+    color: white;
+    text-align:center;
+    padding-top: 20px;
+    float:left;
+}
+.left h4{
+    margin: 30px;
+    font-size: 20px;
+    color: red;
+    text-align:center;
+    margin-top: -10px;
+    margin-left: 110px;
+    float:left;
+}
+
+.left p{
+    margin: 30px;
+    font-size: 20px;
+    color: red;
+    text-align:center;
+    margin-top: -25px;
+    margin-left: 40px;
+    float:left;
+}
+.left #nowpage{
+    font-size: 20px;
+    text-align:center;
+    line-height:40px;
+    width: 200px;
+    height: 40px;
+    margin-left: 40px;
+    float:left;
+    background: #000;
+    color: #ffc107;
+    text-decoration:none;
+    border-radius:5px;
+
+}
+.left #BuyStock{
+    font-size: 20px;
+    text-align:center;
+    line-height:40px;
+    width: 200px;
+    height: 40px;
+    margin-left: 40px;
+    margin-top: 20px;
+    float:left;
+    color: white;
+    background: #000;
+    text-decoration:none;
+    border-radius:5px;
+}
+.left #SellStock{
+    font-size: 20px;
+    text-align:center;
+    line-height:40px;
+    width: 200px;
+    height: 40px;
+    margin-left: 40px;
+    margin-top: 20px;
+    float:left;
+    color: white;
+    background: #000;
+    text-decoration:none;
+    border-radius:5px;
+}
+.left #TransactionStatus{
+    font-size: 20px;
+    text-align:center;
+    line-height:40px;
+    width: 200px;
+    height: 40px;
+    margin-left: 40px;
+    margin-top: 20px;
+    float:left;
+    color: white;
+    background: #000;
+    text-decoration:none;
+    border-radius:5px;
+}
+.left #Discussion{
+    font-size: 20px;
+    text-align:center;
+    line-height:40px;
+    background: #000;
+    color: white;
+    width: 200px;
+    height: 40px;
+    margin-left: 40px;
+    margin-top: 20px;
+    float:left;
+    text-decoration:none;
+    border-radius:5px;
+}
+.right #logout{
+    font-size: 20px;
+    text-align:center;
+    line-height:40px;
+    width: 100px;
+    height: 40px;
+    margin-left: 990px;
+    margin-top: 40px;
+    float:left;
+    color: white;
+    background: red;
+    text-decoration:none;
+    border-radius:5px;
+    float:left;
+}
+.right img{
+    width: 150px;
+    height: 150px;
+    margin-left: 500px;
+    margin-top: 2px;
+    background-color: white;
+    border-radius: 50%;
+    border: 1px solid rgba(255,255,255,255);
+    border:2px black solid;
+}    
+.right .info{
+    width: 950px;
+    height: 550px;
+    background-color: aliceblue;
+    margin-left: 100px;
+    margin-top: -40px;
+}
+.info img{
+    width: 50px;
+    height: 50px;
+    margin-left: 320px;
+    margin-top: 55px;
+    border: 1px solid rgba(255,255,255,255);
+    border:2px aliceblue solid;
+    float: left;
+}
+.info h2{
+    margin-top: 50px;
+    margin-left: 30px;
+    font-size: 30px;
+    color: black;
+    text-align:center;
+    padding-top: 10px;
+    float:left;
+}
+.info h3{
+    width: 200px;
+    height: 40px;
+    text-align:center;
+    margin-top: 130px;
+    margin-left: -230px;
+    font-size: 25px;
+    color: black;
+    text-align:center;
+    padding-top: 10px;
+    float:left;
+}
+
+.info h4{
+    width: 200px;
+    height: 40px;
+    text-align:center;
+    margin-top: 180px;
+    margin-left: -230px;
+    font-size: 40px;
+    color: black;
+    text-align:center;
+    padding-top: 10px;
+    float:left;
+}
+.info h5{
+    width: 200px;
+    height: 40px;
+    text-align:center;
+    margin-top: 250px;
+    margin-left: -340px;
+    font-size: 30px;
+    color: black;
+    text-align:center;
+    padding-top: 10px;
+    float:left;
+}

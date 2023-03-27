@@ -1,0 +1,290 @@
+html{
+    height: 100%;
+  }
+.warp{
+    widows: auto;
+    font-family: "Verdana","新細明體",Geneva,Tahoma,sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.leftDis{
+    margin-top: -25px;
+    margin-left: -20px;
+    width: 300px;
+    background-color: black;
+    float: left;
+    height: 850px;
+}
+.rightDis{
+    margin-top: -25px;
+    margin-right: -75px;
+    width: 1145px;
+    height: 850px;
+    background-color: white;
+    float: left;
+}
+.leftDis h4{
+  margin: 30px;
+  font-size: 20px;
+  color: red;
+  text-align:center;
+  margin-top: -10px;
+  margin-left: 110px;
+  float:left;
+}
+.leftDis p{
+  margin: 30px;
+  font-size: 20px;
+  color: red;
+  text-align:center;
+  margin-top: -25px;
+  margin-left: 40px;
+  float:left;
+}
+.leftDis h1{
+    margin: 30px;
+    font-size: 30px;
+    color: white;
+    text-align:center;
+    padding-top: 20px;
+    float:left;
+}
+.leftDis #nowpage{
+    font-size: 20px;
+    text-align:center;
+    line-height:40px;
+    width: 200px;
+    height: 40px;
+    margin-left: 40px;
+    float:left;
+    background: #000;
+    color: white;
+    text-decoration:none;
+    border-radius:5px;
+
+}
+.leftDis #BuyStock{
+    font-size: 20px;
+    text-align:center;
+    line-height:40px;
+    width: 200px;
+    height: 40px;
+    margin-left: 40px;
+    margin-top: 20px;
+    float:left;
+    color: white;
+    background: #000;
+    text-decoration:none;
+    border-radius:5px;
+}
+.leftDis #SellStock{
+  font-size: 20px;
+  text-align:center;
+  line-height:40px;
+  width: 200px;
+  height: 40px;
+  margin-left: 40px;
+  margin-top: 20px;
+  float:left;
+  color: white;
+  background: #000;
+  text-decoration:none;
+  border-radius:5px;
+}
+.leftDis #TransactionStatus{
+  font-size: 20px;
+  text-align:center;
+  line-height:40px;
+  width: 200px;
+  height: 40px;
+  margin-left: 40px;
+  margin-top: 20px;
+  float:left;
+  color: white;
+  background: #000;
+  text-decoration:none;
+  border-radius:5px;
+}
+.leftDis #Discussion{
+    font-size: 20px;
+    text-align:center;
+    line-height:40px;
+    background: #000;
+    color: #ffc107;
+    width: 200px;
+    height: 40px;
+    margin-left: 40px;
+    margin-top: 20px;
+    float:left;
+    text-decoration:none;
+    border-radius:5px;
+}
+.rightDis #logout{
+    font-size: 20px;
+    text-align:center;
+    line-height:40px;
+    width: 100px;
+    height: 40px;
+    margin-left: 990px;
+    margin-top: -130px;
+    float:left;
+    color: white;
+    background: red;
+    text-decoration:none;
+    border-radius:5px;
+    float:left;
+}
+.rightDis h1{
+    margin-left: 480px;
+    margin-top: 40px;
+    font-size: 30px;
+    color: black;
+    text-align:center;
+    padding-top: 20px;
+    float:left;
+}
+.rightDis p{
+    margin-left: 390px;
+    margin-top: -25px;
+    font-size: 20px;
+    color: red;
+    text-align:center;
+    padding-top: 20px;
+    float:left;
+}
+
+
+.rightDis.Page{
+    max-width: 800px;
+    margin: 0 auto;
+    font-family: "monospace", "微軟正黑體";
+    box-shadow: 0px 0px 16px rgb(199, 197, 197);
+    border-radius: 8px;
+    padding: 12px 28px;
+    color: #6c6c6c;
+    box-sizing: border-box;
+}
+.Page form{
+    margin-top: -60px;
+    margin-left: -280px;
+    font-size: 18px;
+    float:left;
+}
+.Page h5{
+    margin-left: 550px;
+    margin-top: 50px;
+    font-size: 25px;
+    float:left;
+    color: red;
+}
+.Page textarea{
+    display: block;
+    margin-top: -20px;
+    margin-left: 300px;
+    width: 600px;
+    height: 200px;
+    border-color: rgba(0, 0, 0, 0.125);
+    float:left;
+}
+.Page button{
+  margin-top: -50px;
+  margin-left: 750px;
+  color: #ddd;
+  background-color: #343a40;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  font-size: 16px;
+  float:left;
+}
+
+.popup{
+    position: fixed;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .popup-inner{
+    position: relative;
+    padding: 32px;
+    width: 100%;
+    max-width: 640px;
+    background-color: white;
+  }
+  
+  .popup-inner .close-btn{
+    position: absolute;
+    top:16px;
+    right: 16px;
+  }
+  .posthere{
+      margin-left: 170px;
+  }
+  .post{
+    margin-left: 10px;
+    border: 1px solid red;
+    width: 800px;
+    height: 150px;
+    border-radius: 4px;
+    float: left;
+    
+  }
+  .MessageHead{
+    display: flex;
+    float:left;
+    
+   
+  }
+  .MessageAuth {
+    margin-right: 8px;
+    color: #232323;
+    border: 1px solid red;
+    width: 400px;
+    height: 50px;
+    float: left;
+  }
+  .MessageAuth h1{
+    color: #232323;
+    font-size: 20px;
+    margin-left: 20px;
+    margin-top: -5px;
+  }
+  .MessageTime {
+    color: #232323;
+    border: 1px solid red;
+    width: 400px;
+    height: 50px;
+    float: left;
+    margin-left: -9px;
+  }
+  .MessageTime h2{
+    font-size: 18px;
+    margin-left: 8px;
+    margin-top: 5px;
+    float:left;
+
+  }
+
+  .Messagebody{
+    color: #232323;
+    border: 1px solid red;
+    width: 800px;
+    height: 100px;
+    margin-left: -805px;
+    margin-top: 50px;
+  }
+
+  .Messagebody p{
+    margin-top: 18px;
+    color: black;
+    margin-left: 10px;
+    margin-top: -5px;
+
+  }
+  
