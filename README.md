@@ -5,26 +5,17 @@
 
 ## 建置環境與技術需求
 
-### Ethereum以太坊環境
-<img width="10%" src="docs/ganache.png">
+### <img width="3%" src="docs/ganache.png"> Ethereum環境 
 使用Ganache建置許可制私有鏈環境
 
-### `npm test`
+### 智能合約開發與部署
+使用solidity開發撰寫智能合約並使用truffle部署至私有鏈環境
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 前後端
+使用React進行前端開發搭配Node.js作為後端伺服器
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
+### 資料庫
+Friebase `RealTime Database`
 
 **Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
