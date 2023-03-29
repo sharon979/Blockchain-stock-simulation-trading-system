@@ -3,17 +3,11 @@
 <br>這是一個模擬台灣證券交易所的股票交易平台</br>
 <br>透過區塊鏈環境搭配智能合約技術，為用戶提供一個去中心化的交易平台，提升資料儲存安全性及降低交易手續費</br>
 
-## Available Scripts
+## 建置環境與技術需求
 
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Ethereum以太坊環境
+<img width="10%" src="docs/ganache.png">
+使用Ganache建置許可制私有鏈環境
 
 ### `npm test`
 
