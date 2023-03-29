@@ -5,16 +5,16 @@
 
 ## 建置環境與技術需求
 
-### <img width="3%" src="docs/ganache.png"> Ethereum環境 
+### <img width="3%" src="docs/ganache.png">Ethereum環境 
 使用Ganache建置許可制私有鏈環境
 
-### 智能合約開發與部署
+### <img width="3%" src="docs/solidity.png"> 智能合約開發與部署
 使用solidity開發撰寫智能合約並使用truffle部署至私有鏈環境
 
-### 前後端
+### <img width="5%" src="docs/react.png">前後端
 使用React進行前端開發搭配Node.js作為後端伺服器
 
-### 資料庫
+### <img width="5%" src="docs/firebase.png">資料庫
 Friebase `RealTime Database`
 
 **Note: this is a one-way operation. Once you `eject`, you can't go back!**
