@@ -20,4 +20,7 @@ Friebase [RealTime Database](https://firebase.google.com/docs/database?hl=zh-tw)
 ### 硬體需求
 macOS [Monterey v12.2.1](https://support.apple.com/zh-tw/HT212585)
 
+## 系統規則介紹
+
+
 
